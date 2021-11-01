@@ -1,8 +1,8 @@
 #!/bin/bash
 # making file for scripts
 echo "making file.."
-cd /etc
-mkdir PrettyTERM
+cd 
+mkdir PrettYTERM
 cd PrettyTERM
 touch PrettyTERM.sh
 # installing dependencies
@@ -18,7 +18,7 @@ cp -r -f /usr/games/lolcat $PATH
 
 # working with the config file
 echo "making main file,please wait..."
-cd /etc/PrettyTERM
+cd $HOME/PrettYTERM
 echo 'clear' >> PrettyTERM.sh
 echo '#!/bin/bash' >> PrettyTERM.sh
 echo 'neofetch' >> PrettyTERM.sh
