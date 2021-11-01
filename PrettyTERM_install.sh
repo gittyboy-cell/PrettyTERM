@@ -12,8 +12,8 @@ apt -y update && apt -y install neofetch lolcat ruby
 
 # copying lolcat away from /usr/games to fix PATH problem
 echo "fixing problems,please wait.."
-cp -r -f /usr/games/lolcat /usr/bin
-cp -r -f /usr/games/lolcat /bin
+cp -r -f /usr/games/lolcat $PATH
+cp -r -f /usr/games/lolcat $PATH
 
 
 # working with the config file
